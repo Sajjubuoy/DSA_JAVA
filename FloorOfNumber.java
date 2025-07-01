@@ -3,11 +3,11 @@ public class Main
 	public static void main(String[] args) {
 	int arr[]={2,5,8,9,14,66,89,100};
 	int target=7;
-	int ans=CeilNumber(arr,target);
+	int ans=FloorNumber(arr,target);
 	System.out.print("Index:-"+ans);
 	}
 	
-	static int CeilNumber(int arr[],int target){
+	static int FloorNumber(int arr[],int target){
 	    int start=0;
 	    int end=arr.length;
 	    
